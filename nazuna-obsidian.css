@@ -1,0 +1,28 @@
+/* don't limit empty container height, breaks centering */
+.empty-state-container {
+    max-height: unset !important;
+}
+
+/* nazuna */
+.empty-state-title:before {
+    cursor: grab;
+    content: ' _';
+    display: block;
+    color: transparent;
+    height: 256px;
+    background-image: url(https://autumn.revolt.chat/attachments/OEB8UosMOjndRE4rpvxS5_GuJoCxS_NQm58VQXFLL_/image.png);
+    background-size: cover;
+}
+
+/* headpats */
+.empty-state-title:active:before {
+    cursor: grabbing;
+    background-image: url(https://autumn.revolt.chat/attachments/Yrv9H-tgHRBtswD0xi9V9UsDIOINsnJpMGBXMoUiZn/nazuna.png);
+}
+
+/* load headpat state in background */
+.empty-state-title:after {
+    display: none;
+    content: ' _';
+    background-image: url(https://autumn.revolt.chat/attachments/Yrv9H-tgHRBtswD0xi9V9UsDIOINsnJpMGBXMoUiZn/nazuna.png);
+}
