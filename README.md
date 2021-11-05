@@ -10,7 +10,7 @@ Headpat Nazuna in your editor of choice.
 
 ## Obsidian
 
-
+https://user-images.githubusercontent.com/38285861/140585103-524fb8f5-580b-481a-a24b-c336edde3384.mp4
 
 To use:
 1. Download `nazuna-obsidian.css`.
