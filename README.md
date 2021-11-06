@@ -13,7 +13,7 @@ Headpat Nazuna in your editor of choice.
 https://user-images.githubusercontent.com/38285861/140585103-524fb8f5-580b-481a-a24b-c336edde3384.mp4
 
 To use:
-1. Download `nazuna-obsidian.css`.
+1. Download [`nazuna-obsidian.css`](nazuna-obsidian.css).
 2. Save to your CSS snippets folder.
    (Obsidian Settings -> Appearance -> CSS Snippets -> Open Folder)
 3. Enable the snippet.
