@@ -22,7 +22,10 @@
 
 /* load headpat state in background */
 .empty-state-title:after {
-    display: none;
-    content: ' _';
+    width: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    content: 'preload';
     background-image: url(https://autumn.revolt.chat/attachments/Yrv9H-tgHRBtswD0xi9V9UsDIOINsnJpMGBXMoUiZn/nazuna.png);
 }
