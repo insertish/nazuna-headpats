@@ -9,8 +9,11 @@
     background-image: url(https://autumn.revolt.chat/attachments/Yrv9H-tgHRBtswD0xi9V9UsDIOINsnJpMGBXMoUiZn/nazuna.png) !important;
 }
 
-/* This should theoretically preload the clicked state, but it doesn't seem to work */
 .editor-group-letterpress:after {
-    display: none;
+    width: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    content: 'preload';
     background-image: url(https://autumn.revolt.chat/attachments/Yrv9H-tgHRBtswD0xi9V9UsDIOINsnJpMGBXMoUiZn/nazuna.png);
 }
